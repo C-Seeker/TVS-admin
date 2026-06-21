@@ -28,6 +28,8 @@ Clients should be able to:
 
 ## Phase 0: Repo setup and app structure
 
+Status: complete. The legacy single-file prototype is frozen as the document-output reference while new development proceeds in `frontend/` and `backend/`. See `README.md`, `CONTRIBUTING.md`, `docs/DEPLOYMENT.md`, and `docs/LEGACY_MIGRATION_CHECKLIST.md`.
+
 - Decide whether to keep the current single-file prototype temporarily or migrate to a framework such as React/Vite, Next.js, or a small server-rendered app.
 - Add a README with local setup, deployment notes, data model overview, and contributor instructions.
 - Add `.env.example` for Strapi, database, Stripe, email, storage, and app URL values.

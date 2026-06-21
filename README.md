@@ -51,6 +51,8 @@ cd ../backend
 npm run build
 ```
 
+The same checks run automatically in GitHub Actions for pull requests and pushes to `main`.
+
 ## Frontend structure
 
 ```text
@@ -72,6 +74,14 @@ Development uses SQLite for a zero-configuration start. Production should use Po
 
 Secrets, generated uploads, local databases, and build artifacts are ignored by Git.
 
+The initial hosting layout and environment ownership rules are documented in [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
+
 ## Migration rule
 
 Do not remove the root prototype until the React document preview and printed/PDF output have been compared against it and accepted. Migration should proceed one feature at a time.
+
+Use [`docs/LEGACY_MIGRATION_CHECKLIST.md`](docs/LEGACY_MIGRATION_CHECKLIST.md) for that acceptance process. Contribution boundaries and pull-request expectations are in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## Phase 0 status
+
+The application structure, environment templates, quality checks, deployment contract, contributor workflow, and legacy migration guardrail are established. Phase 1 can begin with Strapi content types and backend-enforced invoice rules.
