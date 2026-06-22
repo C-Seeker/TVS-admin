@@ -9,7 +9,7 @@ TVS Admin is being migrated from the original single-file CRM prototype into two
 ## Prerequisites
 
 - Node.js 22 (see `.nvmrc`)
-- npm 10 or newer
+- npm 11.12.1 (the backend pins this version in `package.json`)
 
 ## Local setup
 
